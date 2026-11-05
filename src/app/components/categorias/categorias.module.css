@@ -1,0 +1,38 @@
+.categorias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.categorias_botoes {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.categorias_botoes button {
+    padding: 10px 0px;
+    flex: 1 1 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    gap: 10px;
+    border: 0;
+    border-radius: 4px;
+
+}
+
+.categorias_botoes button img {
+    width: 20px;
+    height: auto;
+}
+
+.categorias_botoes button span {
+    font-size: 14px;
+    font-weight: 600;
+}
